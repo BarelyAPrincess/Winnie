@@ -1,0 +1,11 @@
+include ':AmeliaCommonLib', ':AmeliaScriptingLib', ':AmeliaStorageLib', ':AmeliaEventsLib', ':AmeliaLogLib', ':AmeliaNetworkingLib', ':AmeliaUsersLib'
+
+project( ':AmeliaCommonLib' ).projectDir = new File( 'modules/AmeliaCommonLib' )
+project( ':AmeliaScriptingLib' ).projectDir = new File( 'modules/AmeliaScriptingLib' )
+project( ':AmeliaStorageLib' ).projectDir = new File( 'modules/AmeliaStorageLib' )
+project( ':AmeliaEventsLib' ).projectDir = new File( 'modules/AmeliaEventsLib' )
+project( ':AmeliaLogLib' ).projectDir = new File( 'modules/AmeliaLogLib' )
+project( ':AmeliaNetworkingLib' ).projectDir = new File( 'modules/AmeliaNetworkingLib' )
+project( ':AmeliaUsersLib' ).projectDir = new File( 'modules/AmeliaUsersLib' )
+
+rootProject.name = 'Winnie'

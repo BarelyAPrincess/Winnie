@@ -1,0 +1,24 @@
+[submodule "AmeliaUsersLib"]
+	path = modules/AmeliaUsersLib
+	url = git@github.com:BarelyAPrincess/AmeliaLib.git
+	branch = users
+[submodule "AmeliaNetworkingLib"]
+	path = modules/AmeliaNetworkingLib
+	url = git@github.com:BarelyAPrincess/AmeliaLib.git
+	branch = networking
+[submodule "AmeliaCommonLib"]
+	path = modules/AmeliaCommonLib
+	url = git@github.com:BarelyAPrincess/AmeliaLib.git
+	branch = common
+[submodule "AmeliaScriptingLib"]
+	path = modules/AmeliaScriptingLib
+	url = git@github.com:BarelyAPrincess/AmeliaLib.git
+	branch = scripting
+[submodule "AmeliaLogLib"]
+	path = modules/AmeliaLogLib
+	url = git@github.com:BarelyAPrincess/AmeliaLib.git
+	branch = log
+[submodule "AmeliaEventsLib"]
+	path = modules/AmeliaEventsLib
+	url = git@github.com:BarelyAPrincess/AmeliaLib.git
+	branch = events
