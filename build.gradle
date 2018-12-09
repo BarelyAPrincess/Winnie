@@ -126,7 +126,6 @@ dependencies {
 	compile project( ':AmeliaAppLib' )
 	compile project( ':AmeliaScriptingLib' )
 	compile project( ':AmeliaStorageLib' )
-	compile project( ':AmeliaEventsLib' )
 	compile project( ':AmeliaPluginsLib' )
 	compile project( ':AmeliaLogLib' )
 	compile project( ':AmeliaNetworkingLib' )

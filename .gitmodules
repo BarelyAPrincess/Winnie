@@ -18,10 +18,6 @@
 	path = modules/AmeliaLogLib
 	url = git@github.com:BarelyAPrincess/AmeliaLib.git
 	branch = log
-[submodule "AmeliaEventsLib"]
-	path = modules/AmeliaEventsLib
-	url = git@github.com:BarelyAPrincess/AmeliaLib.git
-	branch = events
 [submodule "AmeliaAppLib"]
 	path = modules/AmeliaAppLib
 	url = git@github.com:BarelyAPrincess/AmeliaLib.git
