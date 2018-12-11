@@ -26,3 +26,7 @@
 	path = modules/AmeliaPluginsLib
 	url = git@github.com:BarelyAPrincess/AmeliaLib.git
 	branch = plugins
+[submodule "AmeliaPermissionsLib"]
+	path = modules/AmeliaPermissionsLib
+	url = git@github.com:BarelyAPrincess/AmeliaLib.git
+	branch = permissions

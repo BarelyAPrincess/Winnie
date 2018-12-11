@@ -124,6 +124,7 @@ dependencies {
 
 	compile project( ':AmeliaCommonLib' )
 	compile project( ':AmeliaAppLib' )
+	compile project( ':AmeliaPermissionsLib' )
 	compile project( ':AmeliaScriptingLib' )
 	compile project( ':AmeliaStorageLib' )
 	compile project( ':AmeliaPluginsLib' )
