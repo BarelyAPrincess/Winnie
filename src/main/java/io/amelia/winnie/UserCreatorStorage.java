@@ -17,7 +17,7 @@ import io.amelia.lang.UserException;
 import io.amelia.storage.backend.StorageBackend;
 import io.amelia.storage.types.TableStorageType;
 import io.amelia.support.NodePath;
-import io.amelia.users.BaseUsers;
+import io.amelia.users.DefaultUsers;
 import io.amelia.users.UserContext;
 import io.amelia.users.UserCreator;
 import io.amelia.users.UserPermissible;
@@ -65,7 +65,7 @@ class UserCreatorStorage extends UserCreator
 		tableStorage.getRecords().forEach( record -> {
 			UserContext userContext = new UserContext( this, record.getString( "uuid" ) );
 			userContext.setValues( record );
-			BaseUsers.users.add( userContext );
+			DefaultUsers.users.add( userContext );
 		} );
 	}
 
